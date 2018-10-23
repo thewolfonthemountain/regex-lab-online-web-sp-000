@@ -15,5 +15,5 @@ if text.match(/^[A-Z](.)+[.?!]$/) then true else false end
 end
 
 def valid_phone_number?(phone)
-if phone.match(/\d{9}/) then true else false
+if phone.match(/\d{9}/) then true else false end
 end
