@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(word)
-if word.match(/\b[aeiou]/) != nil then true else false end
+word.match(/\b[aeiou]/).empty?
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
